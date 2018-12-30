@@ -45,7 +45,7 @@ satisfy:
   rpm: wxPython || python-wxWidgets-3_0-devel
   port: wxPython-3.0 && py27-wxpython-3.0
   portage: dev-python/wxpython
-  pacman: wxpython
+  pacman: python-wxpython
 source: wget+http://prdownloads.sourceforge.net/wxpython/wxPython-src-2.8.11.0.tar.bz2
 vars:
   config_opt: ' --disable-unicode '
